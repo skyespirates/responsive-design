@@ -17,7 +17,7 @@
       rel="stylesheet"
     />
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css" />
@@ -269,7 +269,7 @@
               See More <i class="bx bx-right-arrow-alt services__icon"></i>
             </span>
             <div class="services__modal">
-              <div class="services__modal_content">
+              <div class="services__modal-content">
                 <i class="bx bx-x services__modal-close"></i>
                 <h3 class="services__modal-title">Product Designer</h3>
                 <p class="services__modal-description">
@@ -277,29 +277,29 @@
                   Provident corrupti ut quis.
                 </p>
                 <ul class="services__modal-list">
-                  <li class="services__modal-list">
+                  <li class="services__modal-item">
                     <i class="bx bx-check services__modal-icon"></i>
                     <p class="services__modal-info">
                       I develop the user interface
                     </p>
                   </li>
-                  <li class="services__modal-list">
+                  <li class="services__modal-item">
                     <i class="bx bx-check services__modal-icon"></i>
                     <p class="services__modal-info">Web page development</p>
                   </li>
-                  <li class="services__modal-list">
+                  <li class="services__modal-item">
                     <i class="bx bx-check services__modal-icon"></i>
                     <p class="services__modal-info">
                       I create UX element interactions
                     </p>
                   </li>
-                  <li class="services__modal-list">
+                  <li class="services__modal-item">
                     <i class="bx bx-check services__modal-icon"></i>
                     <p class="services__modal-info">
                       I position your company brand
                     </p>
                   </li>
-                  <li class="services__modal-list">
+                  <li class="services__modal-item">
                     <i class="bx bx-check services__modal-icon"></i>
                     <p class="services__modal-info">
                       Design and mockups of products for companies
@@ -315,7 +315,7 @@
               See More <i class="bx bx-right-arrow-alt services__icon"></i>
             </span>
             <div class="services__modal">
-              <div class="services__modal_content">
+              <div class="services__modal-content">
                 <i class="bx bx-x services__modal-close"></i>
                 <h3 class="services__modal-title">Product Designer</h3>
                 <p class="services__modal-description">
@@ -323,29 +323,29 @@
                   Provident corrupti ut quis.
                 </p>
                 <ul class="services__modal-list">
-                  <li class="services__modal-list">
+                  <li class="services__modal-item">
                     <i class="bx bx-check services__modal-icon"></i>
                     <p class="services__modal-info">
                       I develop the user interface
                     </p>
                   </li>
-                  <li class="services__modal-list">
+                  <li class="services__modal-item">
                     <i class="bx bx-check services__modal-icon"></i>
                     <p class="services__modal-info">Web page development</p>
                   </li>
-                  <li class="services__modal-list">
+                  <li class="services__modal-item">
                     <i class="bx bx-check services__modal-icon"></i>
                     <p class="services__modal-info">
                       I create UX element interactions
                     </p>
                   </li>
-                  <li class="services__modal-list">
+                  <li class="services__modal-item">
                     <i class="bx bx-check services__modal-icon"></i>
                     <p class="services__modal-info">
                       I position your company brand
                     </p>
                   </li>
-                  <li class="services__modal-list">
+                  <li class="services__modal-item">
                     <i class="bx bx-check services__modal-icon"></i>
                     <p class="services__modal-info">
                       Design and mockups of products for companies
@@ -369,29 +369,29 @@
                   Provident corrupti ut quis.
                 </p>
                 <ul class="services__modal-list">
-                  <li class="services__modal-list">
+                  <li class="services__modal-item">
                     <i class="bx bx-check services__modal-icon"></i>
                     <p class="services__modal-info">
                       I develop the user interface
                     </p>
                   </li>
-                  <li class="services__modal-list">
+                  <li class="services__modal-item">
                     <i class="bx bx-check services__modal-icon"></i>
                     <p class="services__modal-info">Web page development</p>
                   </li>
-                  <li class="services__modal-list">
+                  <li class="services__modal-item">
                     <i class="bx bx-check services__modal-icon"></i>
                     <p class="services__modal-info">
                       I create UX element interactions
                     </p>
                   </li>
-                  <li class="services__modal-list">
+                  <li class="services__modal-item">
                     <i class="bx bx-check services__modal-icon"></i>
                     <p class="services__modal-info">
                       I position your company brand
                     </p>
                   </li>
-                  <li class="services__modal-list">
+                  <li class="services__modal-item">
                     <i class="bx bx-check services__modal-icon"></i>
                     <p class="services__modal-info">
                       Design and mockups of products for companies
@@ -405,10 +405,103 @@
       </section>
 
       <!--=============== WORK ===============-->
-      <section class="work section" id="work"></section>
+      <section class="work section" id="work">
+        <span class="section__subtitle"> My Portfolio </span>
+        <h2 class="section__title">Recent Works</h2>
+        <div class="work__filters">
+          <span class="work__item active-work" data-filter="all">All</span>
+          <span class="work__item" data-filter=".web">Web</span>
+          <span class="work__item" data-filter=".movil">Movil</span>
+          <span class="work__item" data-filter=".design">Design</span>
+        </div>
+        <div class="work__container container grid">
+          <div class="work__card mix web">
+            <img src="assets/img/work1.jpg" alt="" class="work__img" />
+            <h3 class="work__title">Web Design</h3>
+            <a href="#" class="work__button">
+              Demo <i class="bx bx-right-arrow-alt work__item"></i>
+            </a>
+          </div>
+          <div class="work__card mix movil">
+            <img src="assets/img/work2.jpg" alt="" class="work__img" />
+            <h3 class="work__title">App Movil</h3>
+            <a href="#" class="work__button">
+              Demo <i class="bx bx-right-arrow-alt work__item"></i>
+            </a>
+          </div>
+          <div class="work__card mix design">
+            <img src="assets/img/work3.jpg" alt="" class="work__img" />
+            <h3 class="work__title">Brand Design</h3>
+            <a href="#" class="work__button">
+              Demo <i class="bx bx-right-arrow-alt work__item"></i>
+            </a>
+          </div>
+          <div class="work__card mix web">
+            <img src="assets/img/work4.jpg" alt="" class="work__img" />
+            <h3 class="work__title">Web Design</h3>
+            <a href="#" class="work__button">
+              Demo <i class="bx bx-right-arrow-alt work__item"></i>
+            </a>
+          </div>
+          <div class="work__card mix movil">
+            <img src="assets/img/work5.jpg" alt="" class="work__img" />
+            <h3 class="work__title">App Movil</h3>
+            <a href="#" class="work__button">
+              Demo <i class="bx bx-right-arrow-alt work__item"></i>
+            </a>
+          </div>
+        </div>
+      </section>
 
       <!--=============== TESTIMONIALS ===============-->
-      <section class="testimonial section"></section>
+      <section class="testimonial section">
+        <span class="section__subtitle">My Client Says</span>
+        <h2 class="section__title">Testimonials</h2>
+        <div class="testimonial__container container swiper">
+          <div class="swiper-wrapper">
+            <div class="testimonial__card swiper-slide">
+              <img
+                src="assets/img/testimonial1.png"
+                alt=""
+                class="testimonial__img"
+              />
+              <h3 class="testimonial__name">John Doe</h3>
+              <p class="testimonial__description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
+                vel repellat minus quam voluptatibus consectetur, inventore
+                nesciunt quidem.
+              </p>
+            </div>
+            <div class="testimonial__card swiper-slide">
+              <img
+                src="assets/img/testimonial2.png"
+                alt=""
+                class="testimonial__img"
+              />
+              <h3 class="testimonial__name">John Doe</h3>
+              <p class="testimonial__description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
+                vel repellat minus quam voluptatibus consectetur, inventore
+                nesciunt quidem.
+              </p>
+            </div>
+            <div class="testimonial__card swiper-slide">
+              <img
+                src="assets/img/testimonial3.png"
+                alt=""
+                class="testimonial__img"
+              />
+              <h3 class="testimonial__name">John Doe</h3>
+              <p class="testimonial__description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
+                vel repellat minus quam voluptatibus consectetur, inventore
+                nesciunt quidem.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
 
       <!--=============== CONTACT ===============-->
       <section class="contact section" id="contact"></section>
@@ -421,10 +514,10 @@
     <script src=""></script>
 
     <!--=============== SWIPER JS ===============-->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--=============== MIXITUP FILTER ===============-->
-    <script src=""></script>
+    <script src="assets/js/mixitup.min.js"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
